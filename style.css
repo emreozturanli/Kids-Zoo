@@ -19,7 +19,6 @@ body{
 
 header{
     text-align: center;
-    color: var(--hcolor);
     display: grid;
     align-content: center;
     gap: .4rem;
@@ -68,11 +67,11 @@ span{
     background-color: #E44B92;
 }
 .pic-3{
-    background-image: url(/img/sheep.png);
+    background-image: url(./img/sheep.png);
     background-color: #09B2D1;
 }
 .pic-4{
-    background-image: url(/img/rooster.png);
+    background-image: url(img/rooster.png);
     background-color: #FFB938;
 }
 .pic-5{
