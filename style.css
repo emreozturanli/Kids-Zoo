@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+    grid-template-columns: 80%;
+    justify-content: center;
+    text-align: center;
+    background-color: #8BCEDB;
+    font-family: 'Bubblegum Sans', cursive;
+    
+}
+
+header{
+    text-align: center;
+    color: var(--hcolor);
+    display: grid;
+    align-content: center;
+    gap: .4rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 50% 50%;
+    column-gap: 2%;
+    justify-content: center;
+}
+div{
+    font-size: 2rem;
+    color: #2e2927;
+}
+.item{
+    border-radius: 20%;
+    
+}
+
+.pictures{
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+span{
+    display: none;
+}
+
+.pictures:hover{
+    cursor: pointer;
+}
+
+.pic-1{
+    background-image: url(/img/lion.png);
+    
+    background-color: #FD7443;
+}
+.pic-2{
+    background-image: url(/img/eagle.png);
+    background-color: #E44B92;
+}
+.pic-3{
+    background-image: url(/img/sheep.png);
+    background-color: #09B2D1;
+}
+.pic-4{
+    background-image: url(/img/rooster.png);
+    background-color: #FFB938;
+}
+.pic-5{
+    background-image: url(/img/cow.png);
+    background-color: #F18EC4;
+}
+.pic-6{
+    background-image: url(/img/dog.png);
+    background-color: #FFFFFF;
+}
+.pic-7{
+    background-image: url(/img/cat.png);
+    background-color: #8DC539;
+}
+.pic-8{
+    background-image: url(/img/bee.png);
+    background-color: #ec3326;
+}
+
+h4{
+    opacity: .6;
+}
+
+h5{
+    opacity: .4;
+}
+
+i{
+    font-size: 4rem;
+    color: #425229;
+    z-index: -1;
+    position: absolute;
+    opacity: .9;
+}
+
+.i-1{
+    top: 38%;
+}
+
+.i-2{
+    top: 80%;
+    left: 50%;
+}
+.i-3{
+    top: 40%;
+    left: 50%;
+}
+.i-4{
+    top: 60%;
+    left: 90%;
+}
+.i-5{
+    top: 60%;
+    left: 30%;
+}
+.i-6{
+    top: 15%;
+    left: 90%;
+}
+.i-7{
+    top: 85%;
+    left: 10%;
+}
+
+.i-8{
+    top: 40%;
+    left: 90%;
+}
+
+.i-9{
+    top: 5%;
+    left: 75%;
+}
+.i-10{
+    top: 0%;
+    left: 10%;
+}
+
+
+
+@media(max-width:768px){
+    body{
+        height: auto;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: repeat(4 , 150px);
+        column-gap: 2%;
+        row-gap: 5%;
+        justify-content: center;
+    }
+
+    footer{
+        margin-top:100px ;
+    }
+
+    .i-4{
+        top: 110%;
+        left: 90%;
+    }
+
+    .i-6{
+        top: 120%;
+        left: 50%;
+    }
+}
