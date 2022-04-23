@@ -58,16 +58,16 @@ span{
 }
 
 .pic-1{
-    background-image: url(/img/lion.png);
+    background-image: url(img/lion.png);
     
     background-color: #FD7443;
 }
 .pic-2{
-    background-image: url(/img/eagle.png);
+    background-image: url(img/eagle.png);
     background-color: #E44B92;
 }
 .pic-3{
-    background-image: url(./img/sheep.png);
+    background-image: url(img/sheep.png);
     background-color: #09B2D1;
 }
 .pic-4{
@@ -75,19 +75,19 @@ span{
     background-color: #FFB938;
 }
 .pic-5{
-    background-image: url(/img/cow.png);
+    background-image: url(img/cow.png);
     background-color: #F18EC4;
 }
 .pic-6{
-    background-image: url(/img/dog.png);
+    background-image: url(img/dog.png);
     background-color: #FFFFFF;
 }
 .pic-7{
-    background-image: url(/img/cat.png);
+    background-image: url(img/cat.png);
     background-color: #8DC539;
 }
 .pic-8{
-    background-image: url(/img/bee.png);
+    background-image: url(img/bee.png);
     background-color: #ec3326;
 }
 
